@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calidad20222.web", "Calidad20222.web\Calidad20222.web.csproj", "{6C3B2E1C-4FFA-4485-B12A-1A04C0EF0867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{786E3864-0FF0-4D50-9AB2-CA1C05EA3C78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3B2E1C-4FFA-4485-B12A-1A04C0EF0867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3B2E1C-4FFA-4485-B12A-1A04C0EF0867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3B2E1C-4FFA-4485-B12A-1A04C0EF0867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3B2E1C-4FFA-4485-B12A-1A04C0EF0867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{786E3864-0FF0-4D50-9AB2-CA1C05EA3C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786E3864-0FF0-4D50-9AB2-CA1C05EA3C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786E3864-0FF0-4D50-9AB2-CA1C05EA3C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786E3864-0FF0-4D50-9AB2-CA1C05EA3C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Definir jugada de Poker</h1>
+    <form action="/home/Definir" method="post">
+        <div class="row">
+            <div class="col">
+                <label>Carta #1</label>
+                <input type="text" class="form-control" id="carta1_numero" name="carta1_numero" placeholder="Ingrese el número #1">
+            </div>
+            <div class="col">
+                <label>Palo #1</label>
+                <select name="carta1_palo" id="carta1_palo">
+                    <option value="CORAZON">Corazon</option>
+                    <option value="TREBOL">Trebol</option>
+                    <option value="ESPADA">Espada</option>
+                    <option value="COCO">Coco</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label>Carta #2</label>
+                <input type="text" class="form-control" id="carta2_numero" name="carta2_numero" placeholder="Ingrese el número #2">
+            </div>
+            <div class="col">
+                <label>Palo #2</label>
+                <select name="carta2_palo" id="carta2_palo">
+                    <option value="CORAZON">Corazon</option>
+                    <option value="TREBOL">Trebol</option>
+                    <option value="ESPADA">Espada</option>
+                    <option value="COCO">Coco</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label>Carta #3</label>
+                <input type="text" class="form-control" name="carta3_numero" id="carta3_numero" placeholder="Ingrese el número #3">
+            </div>
+            <div class="col">
+                <label>Palo #3</label>
+                <select name="carta3_palo" id="carta3_palo">
+                    <option value="CORAZON">Corazon</option>
+                    <option value="TREBOL">Trebol</option>
+                    <option value="ESPADA">Espada</option>
+                    <option value="COCO">Coco</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label>Carta #4</label>
+                <input type="text" class="form-control" name="carta4_numero" id="carta4_numero" placeholder="Ingrese el número #4">
+            </div>
+            <div class="col">
+                <label>Palo #4</label>
+                <select name="carta4_palo" id="carta4_palo">
+                    <option value="CORAZON">Corazon</option>
+                    <option value="TREBOL">Trebol</option>
+                    <option value="ESPADA">Espada</option>
+                    <option value="COCO">Coco</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+                    <div class="col">
+                        <label>Carta #5</label>
+                        <input type="text" class="form-control" name="carta5_numero" id="carta5_numero" placeholder="Ingrese el número #5">
+                    </div>
+                    <div class="col">
+                        <label>Palo #5</label>
+                        <select name="carta5_palo" id="carta5_palo">
+                            <option value="CORAZON">Corazon</option>
+                            <option value="TREBOL">Trebol</option>
+                            <option value="ESPADA">Espada</option>
+                            <option value="COCO">Coco</option>
+                        </select>
+                    </div>
+                </div>
+        <button class="btn btn-primary mt-4">Definir jugada</button>
+    </form>
+    
+    <h4>Jugada: @ViewBag.Jugada</h4>
+</div>

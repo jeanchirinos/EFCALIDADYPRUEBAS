@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Poker Game</h1>
+    <form action="/home/generar" method="post">
+        <button class="btn btn-primary">Generar Jugada</button>
+    </form>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Cartas</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Numero @item.Palo</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    
+    <h1>Jugada: @ViewBag.Jugada</h1>
+</div>
